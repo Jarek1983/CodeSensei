@@ -6,7 +6,7 @@ n = gets.chomp.to_i
 def multiples(n)
   a =(1..n).to_a
   b = []
-  # a = [1,2,3,4,5,6,7,8]
+  # np a = [1,2,3,4,5,6,7,8]
   i = 0
   while i < n
     if a[i] % 15 == 0
@@ -18,7 +18,7 @@ def multiples(n)
     end
     i += 1
   end
-  # b = np [3,5,6,9,12]
+  # np b = [3,5,6,9,12]
   puts b.sum
 end
 
