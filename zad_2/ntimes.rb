@@ -8,6 +8,6 @@ def ntimes(n)
   end
 end
 
-ntimes(n) do
+ntimes(3) do
   puts "Hello"
 end

@@ -18,3 +18,4 @@ end
 
 puts "Suma liczb dodatnich wynosi: #{arr.sum}"
 puts "Suma liczb ujemnych wynosi: #{arr_2.sum}"
+

@@ -3,7 +3,6 @@ def my_block_method
   puts  "Before yield"
   yield_result = yield
   puts "After yield"
-
   puts "Yeld output"
   puts yield_result
 end

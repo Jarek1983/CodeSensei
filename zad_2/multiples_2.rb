@@ -3,7 +3,6 @@
 def multiples(n)
   i = 1
   sum = 0
-
   while i <= n
     if i % 15 == 0
       sum += i
@@ -12,7 +11,6 @@ def multiples(n)
     elsif i % 3 == 0
       sum += i
     end
-
     i += 1
   end
   sum

@@ -8,7 +8,7 @@ end
 my_loop do
 	i = 0
 	while i < 5
-	  puts "Hello"
+	  puts "Hello #{i}"
       i += 1
     end
 end
