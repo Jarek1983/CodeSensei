@@ -11,6 +11,14 @@ end
 
 puts wynik
 
+def sum_number(n)
+    wynik = 0
+  while n != 0
+    wynik += n % 10
+    n = n/10
+  end
+  return wynik
+end
 
 # np n = 378
 

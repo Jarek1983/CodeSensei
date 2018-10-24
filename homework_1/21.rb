@@ -14,6 +14,15 @@ end
 
 puts "Silnia: #{wynik}"
 
+def silnia(n)
+    wynik = 1
+    i = 1
+  while n > i
+    i += 1
+    wynik *= i
+  end
+  puts wynik
+end
 
 # 1 > 1
 

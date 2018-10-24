@@ -11,3 +11,13 @@ elsif b >= a && b >= c
 else
 	puts "Największą liczbą jest #{c}"
 end
+
+def comparison(a,b,c)
+  if a >= b && a >= c
+    return "Największą liczbą jest #{a}"
+  elsif b >= a && b >= c
+    return "Największą liczbą jest #{b}"
+  else
+    return "Największą liczbą jest #{c}"
+  end
+end

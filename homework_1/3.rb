@@ -30,3 +30,4 @@ case month
 	else
 		puts "Wprowadź prawidłowy miesiąc"
 end
+

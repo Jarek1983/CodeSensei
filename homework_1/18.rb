@@ -11,3 +11,4 @@ while n != 0
 end
 
 puts wynik
+

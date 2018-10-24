@@ -8,3 +8,11 @@ if a < b
 else
 	puts "Ciąg nie jest rosnący"
 end
+
+def comparison(a,b)
+  if a < b 
+    return "Ciąg jest rosnący"
+  else
+    return "Ciąg nie jest rosnący"
+  end
+end

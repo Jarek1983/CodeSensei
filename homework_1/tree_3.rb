@@ -1,5 +1,5 @@
 # Napisz program rysujący tekstową choinkę w konsoli. Na przykład taką:
-
+    print "\033[0;32m"
 def draw_segment(from, to, padding = 0)
   (from..to).each do |i|
     print " " * ((to - i) + padding)

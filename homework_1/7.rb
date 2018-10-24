@@ -14,3 +14,12 @@ else # 	a == b - też może być
 #	puts a.to_s + " jest równe " + b.to_s
 end
 
+def comparison(a,b)
+  if a > b
+    return "#{a} jest większe niż #{b}"
+  elsif a < b
+    return "#{b} jest większe niż #{a}"
+  else
+    return "Liczby są równe"
+  end
+end

@@ -4,7 +4,11 @@ sum = 0
 (1..n).step(2) {|a| sum += a+1 if (a + 1) <= n}
 puts sum
 
-
+def sum_even(n)
+    sum = 0
+  (1..n).step(2) {|a| sum += a+1 if (a + 1) <= n}
+  return sum
+end
 #(1..4).step(2) -> 1,3
 
 #sum = 1 + 1 if 2 <= 4 true

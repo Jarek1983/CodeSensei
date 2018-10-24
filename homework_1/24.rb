@@ -21,3 +21,14 @@ end
 
 puts "NWD wprowadzonych liczb wynosi: #{first_number}" 
 
+def nwd(first_number, second_number)
+	while (first_number != second_number)
+      if first_number < second_number
+         second_number = second_number - first_number
+      elsif first_number > second_number
+         first_number = first_number - second_number
+      else first_number == second_number
+      end
+    end
+return "NWD wprowadzonych liczb wynosi: #{first_number}" 
+end

@@ -15,3 +15,16 @@ while n >= i do
 end
 
 puts array
+
+def other_numbers(n)
+  if n < 1
+    return "Liczba musi być > 0"
+  end
+    i = 1
+    array = []
+  while n >= i do 
+	array += [i, i*(-1)]
+	i += 1
+  end
+  return array
+end

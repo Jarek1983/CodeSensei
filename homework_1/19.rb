@@ -11,7 +11,15 @@ while n >= i do
 end
   puts sum
 
-
+def number_power(n)
+    sum = 0
+    i = 1
+  while n >= i do 
+    sum += i*i
+    i += 1
+  end
+    return sum
+end
 # puts "Podaj liczbę n!"
 # n = gets.chomp.to_i
 # array = []

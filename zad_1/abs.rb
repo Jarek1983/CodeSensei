@@ -10,3 +10,13 @@ end
 
 puts "Wynik"
 puts result
+
+def abs(x)
+  if x >= 0
+    result = x
+  else
+    result = x * -1
+  end
+    puts "Wynik"
+    puts result	
+end

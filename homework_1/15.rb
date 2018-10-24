@@ -11,3 +11,14 @@ while n >= i
 		puts i.to_s + " " + (i * -1).to_s
 		i += 1
 end
+
+def other_numbers(n)
+  if n < 1
+    return "Liczba musi być > 0"
+  end
+    i = 1
+  while n >= i  
+    return i.to_s + " " + (i * -1).to_s
+	i += 1
+  end
+end

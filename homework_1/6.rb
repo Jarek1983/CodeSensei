@@ -13,3 +13,16 @@ elsif c < d
 else
 	puts "Suma jest równa różnicy"
 end
+
+
+def numbers(a,b)
+  c = a + b
+  d = a - b
+    if c > d
+	  return "Suma większa od różnicy"
+    elsif c < d
+	  return "Suma jest mniejsza od różnicy"
+    else
+	  return "Suma jest równa różnicy"
+	end	
+end

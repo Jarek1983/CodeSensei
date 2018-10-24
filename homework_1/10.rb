@@ -9,3 +9,11 @@ if a < b && b < c
 else
 	puts "Ciąg nie jest rosnący"
 end
+
+def more (a,b,c)
+  if a < b && b < c
+    return "Ciąg jest rosnący"
+  else
+    return "Ciąg nie jest rosnący"
+  end
+end

@@ -8,3 +8,14 @@ sum = 0
     end
   end
   puts sum
+
+def even(n)
+    sum = 0
+  for n in 1..n do 
+    if n % 2 == 0
+      sum += n  
+      n += 1
+    end
+  end
+  return sum
+end

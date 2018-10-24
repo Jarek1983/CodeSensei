@@ -10,3 +10,7 @@ while i < numbers.count
 end
 
 puts "Maksymalna liczba z tablicy: #{max}"
+
+def max(array)
+  return array.max 
+end
