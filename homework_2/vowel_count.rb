@@ -5,7 +5,7 @@ def vowel_count(string)
       if (string[i]=="a" || string[i]=="e" || string[i]=="i" || string[i]=="o"|| string[i]=="u"|| string[i]=="y")
           sum +=1
       end
+      i +=1
     end
-    i +=1
   return sum
 end
