@@ -1,9 +1,9 @@
 def common_elements(array_a, array_b)
 common_array = []
-   array_a.each do |item|
-     if array_b.include?(item)
+  array_a.each do |item|
+    if array_b.include?(item)
    	  common_array << item
-     end
+    end
   end
 common_array
 end

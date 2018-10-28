@@ -15,9 +15,9 @@ morse = ""
 a = text.split(" ")
 
 a.each do |x|
-	if code.key?(x)
-		morse << code[x]
-	end
+    if code.key?(x)
+      morse << code[x]
+    end
 end
 
 puts "morse: #{morse}"

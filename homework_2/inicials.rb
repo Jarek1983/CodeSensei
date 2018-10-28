@@ -9,8 +9,8 @@ def initials(name)
     a = []
     name.split.map do |initial|
    	a << initial[0].capitalize
-   end
-   return a.join
+    end
+  return a.join
 end
 
 initials('Jan Kozlowski')
