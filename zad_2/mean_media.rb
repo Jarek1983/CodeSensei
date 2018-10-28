@@ -1,35 +1,30 @@
-my_array = [1,2,6,4,5]
+array = [1,2,6,4,5,3]
 
-def mean(numbers)
-  i = 0
-  sum = 0
-  while i < numbers.count
-    sum += numbers[i]
-    i += 1
-  end
-  sum / numbers.count
+def average(array)
+  suma = array.sum
+  average = suma/2.0
 end
 
-puts "Moja średnia #{mean(my_array)}"
-my_var = mean(my_array)
+puts "Moja średnia #{average(array)}"
+my_var = average(array)
 
 puts my_var
 
-def median(numbers)
-  if numbers.length.even?
-    mediana = (numbers[numbers.length / 2] + numbers[numbers.length/ 2-1]) / 2.0
-  else
-    mediana = numbers[numbers.length / 2]
-  end
-  mediana
-end
+def median(array)
+  array = array.sort                     
+   if array.length.odd?                  
+     return array[(array.length - 1) / 2] 
+   else array.length.even?                
+     return ( array[array.length/2] + array[array.length/2 - 1] )/2.to_f
+   end
+end        
 
-puts "Moja mediana #{median(my_array)}"
+puts "Moja mediana #{median(array)}"
 
-def print_mean_and_median(numbers)
+def print_average_and_median(array)
   puts "Widok z mojej metody"
-  puts "Moja średnia #{mean(numbers)}"
-  puts "Moja mediana #{median(numbers)}"
+  puts "Moja średnia #{average(array)}"
+  puts "Moja mediana #{median(array)}"
 end
 
-print_mean_and_median(my_array)
+print_average_and_median(array)

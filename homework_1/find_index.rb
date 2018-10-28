@@ -1,7 +1,7 @@
 
 def find_index(array, value)
   	return value if array.include? value
-  	return nil if array.none? value
+  	return "not found" if array.none? value
 end
 
 #find_index([1, 2, 3, 4, 5], 3)

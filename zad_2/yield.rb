@@ -21,3 +21,4 @@ end
 my_block_method do
   10
 end
+
