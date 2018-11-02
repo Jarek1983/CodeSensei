@@ -1,7 +1,7 @@
 # Napisz program, który pozwala wprowadzać imiona przez użytkownika a następnie wyświetla statystyki wprowadzonych danych.
 # Program pobiera dane dopóki nie zostanie podane słowo stop
 
-stats = {}
+stats = {} # np{name => 1}
 loop do
   puts "Podaj Imię:"
   name = gets.chomp

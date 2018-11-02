@@ -1,5 +1,5 @@
-Napisz funkcję, która dla otrzymanej tablicy liczb całkowitych zwraca tablicę tych
-samych liczb, ale o przeciwnej wartości.
+#Napisz funkcję, która dla otrzymanej tablicy liczb całkowitych zwraca tablicę tych
+#samych liczb, ale o przeciwnej wartości.
 
 def invert_array(array)
   arr = []

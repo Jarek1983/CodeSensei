@@ -2,7 +2,7 @@ def rps(first, second)
     options = ["rock", "scissors", "paper"]
 
 first_player = options.index(first)
-    second_player = options.index(second)
+second_player = options.index(second)
 
 puts "#{options[first_player].capitalize} vs. #{options[second_player].capitalize}"
 

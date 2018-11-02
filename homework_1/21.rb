@@ -9,7 +9,6 @@ while n > i
 #	i = i + 1
 	wynik *= i
 #	wynik = wynik * i
-
 end
 
 puts "Silnia: #{wynik}"

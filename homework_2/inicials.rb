@@ -7,7 +7,7 @@ Zapis #=> w tym i kolejnych przykładach symbolizuje zwracaną wartość.
 
 def initials(name)
     a = []
-    name.split.map do |initial|
+    name.split.each do |initial|
    	a << initial[0].capitalize
     end
   return a.join

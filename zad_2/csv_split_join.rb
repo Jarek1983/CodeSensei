@@ -5,6 +5,6 @@ players = ["Derek Smith",
   "Darrell Griffith"]
 
 players.each do |player|
-  names = player.split
-  puts [names[0][0] + names[1][0], player].join(", ")
+  names = player.split #split rozbija stringa na tablice
+  puts [names[0][0] + names[1][0], player].join(", ") #join scala tablice do stringa
 end

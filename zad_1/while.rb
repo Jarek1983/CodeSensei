@@ -16,4 +16,3 @@ def count
     puts number
 end
 
-count
