@@ -1,5 +1,5 @@
 def line(x)
-	y = 4*x - 10
+	4 * x - 10
 end
 
 line(3)

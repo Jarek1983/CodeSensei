@@ -4,3 +4,6 @@ class Book
     puts "Number of pages: #{@number_of_pages}"
   end
 end
+
+harry_potter = Book.new
+potop = Book.new

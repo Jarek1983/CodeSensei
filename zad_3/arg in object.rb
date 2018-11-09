@@ -4,5 +4,5 @@ class Blender
   end
 end
 
-#Blender.new.blend('banana', 'tomato')
-#Blender.new.blend('orange', 'carrot')
+Blender.new.blend('banana', 'tomato')
+Blender.new.blend('orange', 'carrot')

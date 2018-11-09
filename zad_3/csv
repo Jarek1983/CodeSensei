@@ -1,0 +1,4 @@
+require "csv"
+
+csv_content = File.read('products.csv'
+CSV.parse(csv_content)

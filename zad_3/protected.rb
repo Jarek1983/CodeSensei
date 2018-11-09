@@ -8,3 +8,6 @@ protected
     puts "Sniffing!"
   end
 end
+
+a = Dog.new
+Dog.new.say_hello(a)

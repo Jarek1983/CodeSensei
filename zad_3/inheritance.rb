@@ -2,6 +2,10 @@ class Food
   def eat
     puts "Munch, munch, very tasty"
   end
+
+  def drink
+    puts "Drinking"
+  end
 end
 
 class Orange < Food
@@ -9,3 +13,9 @@ class Orange < Food
     puts "Blending..."
   end
 end
+
+#orange = Orange.new
+#orange.eat
+#orange.blend
+#cake = Food.new
+#cake.blend
