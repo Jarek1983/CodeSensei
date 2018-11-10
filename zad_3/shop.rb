@@ -57,17 +57,17 @@ shop.add_product(Product.new('chleb', 1), 10)
 shop.add_product(Product.new('jogurt', 1.23), 4)
 shop.add_product(Product.new('szynka', 5.99), 8)
 
-janusz = Client.new(7)
-janusz.shopping_list = ['chleb', 'jogurt', 'jogurt', 'szynka']
-puts "janusz"
-puts janusz.inspect
-puts "shop"
+jarek = Client.new(7)
+jarek.shopping_list = ['chleb', 'jogurt', 'jogurt', 'szynka']
+puts "Jarek"
+puts jarek.inspect
+puts "Shop"
 puts shop.inspect
 
-janusz.perform_shopping(shop)
+jarek.perform_shopping(shop)
 puts
 
-puts "janusz"
-puts janusz.inspect
+puts "Jarek"
+puts jarek.inspect
 puts "shop"
 puts shop.inspect

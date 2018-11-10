@@ -19,27 +19,6 @@ class Warrior
     rand(@attack_power)
   end
 
-  class Warrior
-  attr_reader :name, :health
-
-  def initialize(name, health, attack_power)
-    @name = name
-    @attack_power = attack_power
-    @health = health
-  end
-
-  def min_attack_power
-    @attack_power.begin
-  end
-
-  def max_attack_power
-    @attack_power.end
-  end
-
-  def make_attack
-    rand(@attack_power)
-  end
-
   def take_damage(value)
     @health -= value
   end
@@ -73,7 +52,7 @@ class Arena
       puts text
     end
     puts "----------------------"
-  end 
+  end
 
   def choose_warriors
     while @warrior1.nil?
@@ -101,7 +80,7 @@ class Arena
     warriors.last.take_damage(damage)
 
     puts "#{warriors.last.name} -#{damage} hp"
-    
+
     if warriors.last.dead?
       puts "#{warriors.first.name} won!"
     end

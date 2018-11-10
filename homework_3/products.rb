@@ -1,20 +1,20 @@
 require "csv"
 
 class Product
-  attr_reader :name, :price, :weight
+  attr_reader :name, :price, :weight #getter
 
   def initialize(name, price, weight)
-    @name = name
-    @price = price
-    @weight = weight
+    @name = name #zmienna obiektowa
+    @price = price #zmienna obiektowa
+    @weight = weight #zmienna obiektowa
   end
 end
 
 class ProductsList
-  attr_writer :products
+  attr_writer :products #setter
 
   def initialize
-    self.products = []
+    self.products = [] #dany obiekt/zestaw wybranych produktów
   end
 
   def parse
@@ -51,6 +51,12 @@ end
 products_list = ProductsList.new
 
 if ARGV[0] == "-f"
+  product = products_list.find_product(ARGV[1])
+  puts "#{product.name}: #{product.price} zł"
+elsif ARGV[0] == "-gt"
+  product = products_list.find_product(ARGV[1])
+  puts "#{product.name}: #{product.price} zł"
+elsif ARGV[0] == "-lt"
   product = products_list.find_product(ARGV[1])
   puts "#{product.name}: #{product.price} zł"
 else

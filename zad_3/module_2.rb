@@ -4,6 +4,10 @@ module Collar
     puts "Pulling #{self}"
   end
 
+  def hello
+  	puts self
+  end
+
 end
 
 class Dog

@@ -14,16 +14,6 @@ module Collar
 
 end
 
-module Home
-
-class Dog
-    def greet
-      puts "Hello"
-    end
- end
- 
-end
-
 class Dog
 
 	include Collar
