@@ -5,7 +5,7 @@ class Bubble
   end
 
   def sort
-    @array.length.times do |x|
+    @array.length.times do 
       @array.length.times do |i|
         if i+1 < @array.length && @array[i+1] < @array[i]
           @array[i], @array[i+1] = @array[i+1], @array[i]
