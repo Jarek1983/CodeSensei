@@ -75,13 +75,13 @@ class Arena
     [@warrior1, @warrior2]
   end
 
-  def take_fight(warriors)
-    damage = warriors.first.make_attack
-    warriors.last.take_damage(damage)
+  def take_fight(warriors) #tablica z wojownikami
+    damage = warriors.first.make_attack #bierze pierwszego zawodnika z tablicy 
+    warriors.last.take_damage(damage) #ile drugi wojownik odnosi obrażeń
 
-    puts "#{warriors.last.name} -#{damage} hp"
+    puts "#{warriors.last.name} -#{damage} hp" 
 
-    if warriors.last.dead?
+    if warriors.last.dead? 
       puts "#{warriors.first.name} won!"
     end
     warriors.last.dead?
@@ -92,8 +92,7 @@ class Arena
     puts "#{@warrior1.name} vs #{@warrior2.name}"
     while true
       break if take_fight(warriors)
-      break if take_fight(warriors.reverse)
-    end
+      break if take_fight(warriors.reverse) #pierwszy przegrał first <=> last (zamienia ich miejscami)
   end
 end
 
