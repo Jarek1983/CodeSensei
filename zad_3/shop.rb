@@ -1,7 +1,7 @@
 class Product
   attr_accessor :name, :price
   def initialize(name, price)
-    self.name = name #self.name - to samo co @name, self odnosi się tylko do metod, @zarezerwowane jest do zmiennych, które nie mają accessorów
+    self.name = name #self.name - to samo co @name, self odnosi się tylko do metod, @ zarezerwowane jest do zmiennych, które nie mają accessorów
     self.price = price
   end
 end
