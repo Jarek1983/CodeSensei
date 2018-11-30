@@ -11,15 +11,19 @@ class Celcius
   end
 
   def fahrenheit
-    (temperature * 1.8 + 32).
+    (temperature * 1.8 + 32).round
   end
 
   def to_s
-    puts "#{temperature} + degrees C"
+    "#{temperature}" + " degrees C"
   end
 
 end
 
 a = Celcius.new(4)
+puts a.fahrenheit
+puts a.to_s
+
+a = Celcius.new(42)
 puts a.fahrenheit
 puts a.to_s

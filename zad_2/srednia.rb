@@ -5,7 +5,7 @@ array3 = [2, 3, 3, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 6, 7, 7, 8, 9]
 
 def srednia(array)
 	suma = array.sum
-	srednia = suma/2
+	srednia = suma/array.length
 end
 
 srednia(array1)

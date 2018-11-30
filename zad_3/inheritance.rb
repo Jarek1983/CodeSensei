@@ -14,8 +14,8 @@ class Orange < Food
   end
 end
 
-#orange = Orange.new
-#orange.eat
-#orange.blend
-#cake = Food.new
-#cake.blend
+orange = Orange.new
+orange.eat
+orange.blend
+cake = Food.new
+cake.blend

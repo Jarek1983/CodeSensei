@@ -1,7 +1,7 @@
 
 array = (1..100).to_a
 
-i = 1
+i = 0
 
 loop do 
 	if array[i] % 15 == 0 

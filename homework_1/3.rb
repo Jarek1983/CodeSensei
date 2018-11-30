@@ -11,7 +11,7 @@ case month
   		puts "Marzec, który ma 31 dni"
 	when 4
   		puts "Kwiecień, który ma 30 dni"
-  	when 5
+  when 5
   		puts "Maj, który ma 31 dni"
 	when 6
   		puts "Czerwiec, który ma 30 dni"
@@ -19,7 +19,7 @@ case month
   		puts "Lipiec, który ma 31 dni"
 	when 8
   		puts "Sierpień, który ma 31 dni"
-  	when 9
+  when 9
   		puts "Wrzesień, który ma 30 dni"
 	when 10
   		puts "Październik, który ma 31 dni"

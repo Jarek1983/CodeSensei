@@ -18,7 +18,7 @@ puts array
 
 def other_numbers(n)
   if n < 1
-    return "Liczba musi być > 0"
+    puts "Liczba musi być > 0"
   end
     i = 1
     array = []
@@ -26,5 +26,5 @@ def other_numbers(n)
 	array += [i, i*(-1)]
 	i += 1
   end
-  return array
+  puts array
 end

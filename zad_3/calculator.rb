@@ -54,11 +54,11 @@ class Calculator
   end
 
 private
-  def append_to_history(opeation, argument = nil)
+  def append_to_history(operation, argument = nil)
     if argument
-      @history << "#{opeation} #{argument} (result: #{@result})"
+      @history << "#{operation} #{argument} (result: #{@result})"
     else
-      @history << "#{opeation}(result: #{@result})"
+      @history << "#{operation}(result: #{@result})"
     end
   end
 end
